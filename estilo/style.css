@@ -1,0 +1,56 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+.home {
+    width: 100%;
+    height: 100vh;
+    background-image: url(../img/human-hand-holding-bottle-water.jpg);
+    background-size: cover;
+    background-position: center;
+    position: relative;
+}
+.navbar {
+    width: 85%;
+    height: 15%;
+    padding: 22px 30px;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background: transparent;
+}
+.logo {
+    color: #fff;
+    font-size: 35px;
+    font-weight: 700;
+    line-height: 1.1;
+}
+button {
+    padding: 12px 20px;
+    border-radius: 30px;
+    background: transparent;
+    border: 2px solid #fff;
+    color: #fff;
+    font-size: 14px;
+}
+.home-text {
+    position: absolute;
+    top:50%;
+    left: 7%;
+    transform: translateY(-50);
+}
+.home-text h1 {
+    font-size:30px;
+    margin-bottom: 30px;
+    color: #fff;
+}
+small {
+    font-size: 17px;
+    line-height: 1.1;
+    color: #fff;
+}
