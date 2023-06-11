@@ -55,32 +55,12 @@ small {
     color: #fff;
 }
 @media (max-width: 480px) {
-    .navbar {
-        padding: 10px 3%;
-    }
-    .logo {
-        font-size: 20px;
-    }
-    button {
-        padding: 6px 8px;
-        border-radius: 30px;
-        font-size: 10px;
-    }
-    .home-text {
-        margin-top: 60%;
-        text-align: center;
-    }
-    .home-text h1 {
-        font-size: 15px;
-        
-    }
-    small {
-        font-size: 12px;
-    }
+    
 }
+  
+
 @media (max-width: 780px) {
     .home {
-        
         transform: translateY(50%,50%);
     }
     .home-text {
